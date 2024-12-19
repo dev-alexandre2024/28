@@ -3,16 +3,17 @@ body{
 }
 table{
     width: 500px;
+    position: relative;
+    border-collapse: collapse;
     
 }
 td, th{
     border: 1px solid black;
     padding: 10px;
+
 }
 td.num{
     text-align: right;
-
-
 }
 
 caption{
@@ -22,10 +23,16 @@ caption{
     background-color: lightgray;
 }
 thead,tfoot{
-    background-color: gray;
+    background-color: #838383;
     color: white;
 }
+thead>tr >th{
+    position: sticky;
+    top: -1px;
+    background-color: #38383838;
+
+}
 tbody > tr:nth-child(odd){
-    background-color: black;
-    color: white;
+    background-color: #83838383;
+       color: white;
 }
