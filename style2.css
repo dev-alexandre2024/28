@@ -11,7 +11,10 @@ td, th{
 }
 td.num{
     text-align: right;
+
+
 }
+
 caption{
     font-size:1em;
     font-weight: bold;
@@ -22,7 +25,7 @@ thead,tfoot{
     background-color: gray;
     color: white;
 }
-tbody > tr:nth-child(2n){
+tbody > tr:nth-child(odd){
     background-color: black;
     color: white;
 }
