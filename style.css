@@ -1,7 +1,5 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-
-
 }
 
 h1.final {
@@ -22,7 +20,7 @@ table {
 }
 
 .b:hover {
-    background-color: yellow;
+    background-color: green;
 }
 
 .c:hover {
