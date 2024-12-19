@@ -4,8 +4,7 @@ body{
 table{
     width: 500px;
     position: relative;
-    border-collapse: collapse;
-    
+    border-collapse: collapse;  
 }
 td, th{
     border: 1px solid black;
