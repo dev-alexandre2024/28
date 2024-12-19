@@ -9,7 +9,18 @@ table {
     height: 400px;
     border-collapse: collapse;
 }
+.a:hover{
+    background-color: red;
 
+}
+.b:hover{
+    background-color: yellow;
+
+}
+.c:hover{
+ background-color: blue;
+
+}
 td {
     border: 1px solid black;
     padding: 8px;
